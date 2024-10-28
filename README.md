@@ -1,5 +1,5 @@
 # EL4106-5A
-Repositorio de proyecto semestral para el ramo EL4106-1 Primavera 2024, grpo 5A. Proyecto: Detección Temprana de Supernovas en ALeRCE - ZTF
+Repositorio de proyecto semestral para el ramo EL4106-1 Primavera 2024, grupo 5A. Proyecto: Detección Temprana de Supernovas en ALeRCE - ZTF
 
 Universidad de Chile
 
