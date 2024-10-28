@@ -20,12 +20,17 @@ Ayudantes: Diego Castillo // Andrés González // Sebastián Guzmán //Francisco
 
 Este repositorio contiene el código, datos y documentación del proyecto Detección Temprana de Supernovas en ALeRCE - ZTF. El objetivo de este proyecto es desarrollar un modelo de aprendizaje profundo capaz de detectar y clasificar supernovas en sus fases iniciales, utilizando los datos proporcionados por el Zwicky Transient Facility (ZTF) y el sistema de alertas de ALeRCE.
 
+
 Descripción del Proyecto
 
 Las supernovas son eventos astronómicos transitorios con una duración relativamente corta, y la posibilidad de detectarlas tempranamente permite a la comunidad científica realizar un seguimiento oportuno y obtener información crítica sobre la evolución estelar y la expansión del universo. En este proyecto, utilizamos una red neuronal convolucional (CNN) para procesar las imágenes de ciencia, referencia y diferencia de la primera detección de cada alerta, además de los metadatos asociados.
+
+
 Estado del Arte
 
 El proyecto se basa en la metodología de clasificación de ALeRCE, que aplica redes convolucionales para clasificar imágenes de eventos astronómicos en cinco clases: supernovas (SN), núcleos activos de galaxias (AGN), estrellas variables (VS), asteroides y falsas detecciones (bogus). Con un enfoque innovador que incluye rotaciones de las imágenes y la integración de capas de cyclic pooling, el modelo logra identificar patrones relevantes independientemente de la orientación de las imágenes.
+
+
 Resultados Preliminares
 
 Los resultados iniciales muestran una mejora en precisión y reducción de errores cuando el modelo es entrenado por más épocas (100), con una mejora notable en su capacidad de distinguir entre supernovas y otras clases de eventos. Los experimentos han permitido obtener una precisión general cercana al 94% en pruebas balanceadas.
@@ -35,6 +40,7 @@ Contenidos del Repositorio
     /data: Carpeta destinada a almacenar las imágenes de entrada y otros datos requeridos para el entrenamiento (no incluido por privacidad).
     /results: Carpeta con los resultados obtenidos, incluyendo gráficos de precisión (accuracy) y pérdida (loss) por épocas, así como matrices de confusión.
     Informe_Proyecto.pdf: Documento del informe detallado del proyecto, con secciones de estado del arte, metodología, resultados preliminares y conclusiones.
+
 
 Requisitos de Instalación
 
