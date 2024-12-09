@@ -2,9 +2,7 @@
 Repositorio de proyecto semestral para el ramo EL4106-1 Primavera 2024, grupo 5A. Proyecto: Detección Temprana de Supernovas en ALeRCE - ZTF
 
 Universidad de Chile
-
 Facultad de Ciencias Físicas y Matemáticas
-
 Departamento de Ingeniería Eléctrica
 
 Detección Temprana de Supernovas en ALeRCE - ZTF (Resultados Preliminares)
@@ -12,9 +10,7 @@ Detección Temprana de Supernovas en ALeRCE - ZTF (Resultados Preliminares)
 Integrantes Grupo 5A: Nicolás Camousseight // Camila Maire
 
 Profesor: Pablo Estévez
-
 Auxiliar: Pablo Cornejo
-
 Ayudantes: Diego Castillo // Andrés González // Sebastián Guzmán //Francisco Soto
 
 
@@ -62,3 +58,5 @@ Uso del Código
 
     Evaluación del Modelo: Ejecuta los scripts de evaluación para generar las métricas de rendimiento, incluidas las curvas de precisión y pérdida, y las matrices de confusión para diferentes configuraciones de épocas.
 
+El notebook de nombre "Datos_proyecto_IA_v2(1).ipynb", corresponde a una versión preliminar e imncompleta del proyecto. Por otra parte, el archivo "Proyecto_5A_Deteccion_supernovas(2).ipynb", es el notebook final del proyecto.
+	
